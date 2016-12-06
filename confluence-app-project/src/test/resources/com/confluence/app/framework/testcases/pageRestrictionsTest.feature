@@ -9,6 +9,6 @@ Scenario: Put page restrictions scenario
 And I click on "***Menu"
 And I click on "RestrictionsMenuOption" 
 Then "RestrictionsMenuArrowButton" element should be present
-And I select "ViewingAndEditingRestrictionsMenuOption"
+And I select "EditingRestrictionsMenuOption"
 And I click on "applyButton"
-Then "FulllockedRestrictionsImage" element should be present
+Then "EditingrestrictionsImage" element should be present

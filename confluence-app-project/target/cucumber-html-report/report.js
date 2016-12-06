@@ -60,7 +60,7 @@ formatter.match({
   "location": "CreatePageTest.I_am_logged_in(String)"
 });
 formatter.result({
-  "duration": 48814675214,
+  "duration": 41346691988,
   "status": "passed"
 });
 formatter.match({
@@ -73,7 +73,7 @@ formatter.match({
   "location": "CommonUtils.element_should_be_present(String)"
 });
 formatter.result({
-  "duration": 37148311,
+  "duration": 37534738,
   "status": "passed"
 });
 formatter.match({
@@ -86,7 +86,7 @@ formatter.match({
   "location": "CommonUtils.I_click(String)"
 });
 formatter.result({
-  "duration": 125612884,
+  "duration": 135908086,
   "status": "passed"
 });
 formatter.match({
@@ -103,7 +103,7 @@ formatter.match({
   "location": "CommonUtils.I_enter(String,String)"
 });
 formatter.result({
-  "duration": 6056397375,
+  "duration": 6680195926,
   "status": "passed"
 });
 formatter.match({
@@ -116,7 +116,7 @@ formatter.match({
   "location": "CommonUtils.I_click(String)"
 });
 formatter.result({
-  "duration": 179929533,
+  "duration": 177073721,
   "status": "passed"
 });
 formatter.match({
@@ -133,7 +133,7 @@ formatter.match({
   "location": "CreatePageTest.ElementText_should_be(String,String)"
 });
 formatter.result({
-  "duration": 4025778164,
+  "duration": 5102584777,
   "status": "passed"
 });
 formatter.uri("test\\resources\\com\\confluence\\app\\framework\\testcases\\pageRestrictionsTest.feature");
@@ -174,7 +174,7 @@ formatter.step({
   "line": 11
 });
 formatter.step({
-  "name": "I select \"ViewingAndEditingRestrictionsMenuOption\"",
+  "name": "I select \"EditingRestrictionsMenuOption\"",
   "keyword": "And ",
   "line": 12
 });
@@ -184,7 +184,7 @@ formatter.step({
   "line": 13
 });
 formatter.step({
-  "name": "\"FulllockedRestrictionsImage\" element should be present",
+  "name": "\"EditingrestrictionsImage\" element should be present",
   "keyword": "Then ",
   "line": 14
 });
@@ -198,7 +198,7 @@ formatter.match({
   "location": "CommonUtils.I_click(String)"
 });
 formatter.result({
-  "duration": 728866546,
+  "duration": 215325536,
   "status": "passed"
 });
 formatter.match({
@@ -211,7 +211,7 @@ formatter.match({
   "location": "CommonUtils.I_click(String)"
 });
 formatter.result({
-  "duration": 177123698,
+  "duration": 140606343,
   "status": "passed"
 });
 formatter.match({
@@ -224,20 +224,20 @@ formatter.match({
   "location": "CommonUtils.element_should_be_present(String)"
 });
 formatter.result({
-  "duration": 5879679738,
+  "duration": 2281300591,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "ViewingAndEditingRestrictionsMenuOption",
+      "val": "EditingRestrictionsMenuOption",
       "offset": 10
     }
   ],
   "location": "PageRestrictionsTest.I_select(String)"
 });
 formatter.result({
-  "duration": 675779235,
+  "duration": 3349807054,
   "status": "passed"
 });
 formatter.match({
@@ -250,20 +250,20 @@ formatter.match({
   "location": "CommonUtils.I_click(String)"
 });
 formatter.result({
-  "duration": 1140721914,
+  "duration": 3511764160,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "FulllockedRestrictionsImage",
+      "val": "EditingrestrictionsImage",
       "offset": 1
     }
   ],
   "location": "CommonUtils.element_should_be_present(String)"
 });
 formatter.result({
-  "duration": 29066363,
+  "duration": 27489866,
   "status": "passed"
 });
 });
