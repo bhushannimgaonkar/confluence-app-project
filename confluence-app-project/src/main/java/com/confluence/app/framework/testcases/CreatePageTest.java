@@ -24,15 +24,12 @@ public class CreatePageTest {
 	
 	//@And()
 	
-	@Then("^\"([^\"]*)\"$ element should be present$")
-	public void element_should_be_present(String expectedObject){
-	   Assert.assertTrue("Element not found"+expectedObject,selenium.isElementPresent("expectedObject"));	
-	}
 	
-	@Then("\"([^\"]*)\" should be \"([^\"]*)\"")
+	
+	@Then("^\"([^\"]*)\" should be \"([^\"]*)\"$")
 	public void ElementText_should_be(String object,String text){
 		
-		Assert.assertTrue(selenium.verifyText(object, text));
+		Assert.assertTrue("Text not matched "+text,selenium.verifyText(object, text));
 	}
 	
 	

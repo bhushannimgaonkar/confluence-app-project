@@ -9,8 +9,9 @@ and click on the save button.
 @createPage
 Scenario: CreatePage scenario
 Given I am logged in "Mozilla"
-Then "createPagelink" element should be present
+Then "createPageLink" element should be present
 And I click on "createPageLink"
-And I Enter "PageHeading" as "This is confluence product test"
+And I enter "PageHeading" as "This is confluence product test"
 And I click on "saveButton"
-Then "PageTitle" should be "This is Product Test"
+Then "PageTitle" should be "This is confluence product test"
+

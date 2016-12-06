@@ -14,3 +14,4 @@ And I click on "createPageLink"
 And I enter "PageHeading" as "This is confluence product test"
 And I click on "saveButton"
 Then "PageTitle" should be "This is confluence product test"
+

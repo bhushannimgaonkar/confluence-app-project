@@ -114,7 +114,7 @@ public class WebConnector {
 	  }
   
   public boolean verifyText(String Object, String expectedText){
-	  String actualText=driver.findElement(By.xpath(OR.getProperty("object"))).getText();
+	  String actualText=driver.findElement(By.xpath(OR.getProperty(Object))).getText();
 	  if(actualText.equals(expectedText))
 		  return true;
 	  else

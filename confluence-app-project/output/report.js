@@ -8,16 +8,22 @@ formatter.feature({
 });
 formatter.scenario({
   "id": "logging-in-to-confluence;logging-in-to-confluence;;2",
+  "tags": [
+    {
+      "name": "@login",
+      "line": 7
+    }
+  ],
   "description": "",
   "name": "Logging in to confluence",
   "keyword": "Scenario Outline",
-  "line": 16,
+  "line": 17,
   "type": "scenario"
 });
 formatter.step({
   "name": "I go to \"LoginURL\" on \"Mozilla\"",
   "keyword": "Given ",
-  "line": 8,
+  "line": 9,
   "matchedColumns": [
     0
   ]
@@ -25,7 +31,7 @@ formatter.step({
 formatter.step({
   "name": "I enter \"loginUsername\" as \"bhushan.nimgaonkar@gmail.com\"",
   "keyword": "And ",
-  "line": 9,
+  "line": 10,
   "matchedColumns": [
     1
   ]
@@ -33,7 +39,7 @@ formatter.step({
 formatter.step({
   "name": "I enter \"loginPassword\" as \"Bhushan@123\"",
   "keyword": "And ",
-  "line": 10,
+  "line": 11,
   "matchedColumns": [
     2
   ]
@@ -41,12 +47,12 @@ formatter.step({
 formatter.step({
   "name": "I click on \"loginButton\"",
   "keyword": "And ",
-  "line": 11
+  "line": 12
 });
 formatter.step({
   "name": "login should be \"success\"",
   "keyword": "Then ",
-  "line": 12,
+  "line": 13,
   "matchedColumns": [
     3
   ]
@@ -65,55 +71,20 @@ formatter.match({
   "location": "LoginTest.I_go_to_Confluence(String,String)"
 });
 formatter.result({
-  "duration": 14737052133,
+  "duration": 45320037447,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginUsername",
-      "offset": 9
-    },
-    {
-      "val": "bhushan.nimgaonkar@gmail.com",
-      "offset": 28
-    }
-  ],
-  "location": "LoginTest.I_enter(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 200901001,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginPassword",
-      "offset": 9
-    },
-    {
-      "val": "Bhushan@123",
-      "offset": 28
-    }
-  ],
-  "location": "LoginTest.I_enter(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 85883759,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginButton",
-      "offset": 12
-    }
-  ],
-  "location": "LoginTest.I_click(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 7444482175,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "arguments": [
@@ -125,21 +96,26 @@ formatter.match({
   "location": "LoginTest.Login_should_be(String)"
 });
 formatter.result({
-  "duration": 36230112,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "id": "logging-in-to-confluence;logging-in-to-confluence;;3",
+  "tags": [
+    {
+      "name": "@login",
+      "line": 7
+    }
+  ],
   "description": "",
   "name": "Logging in to confluence",
   "keyword": "Scenario Outline",
-  "line": 17,
+  "line": 18,
   "type": "scenario"
 });
 formatter.step({
   "name": "I go to \"LoginURL\" on \"Chrome\"",
   "keyword": "Given ",
-  "line": 8,
+  "line": 9,
   "matchedColumns": [
     0
   ]
@@ -147,7 +123,7 @@ formatter.step({
 formatter.step({
   "name": "I enter \"loginUsername\" as \"bhuhsahn\"",
   "keyword": "And ",
-  "line": 9,
+  "line": 10,
   "matchedColumns": [
     1
   ]
@@ -155,7 +131,7 @@ formatter.step({
 formatter.step({
   "name": "I enter \"loginPassword\" as \"nbczccc\"",
   "keyword": "And ",
-  "line": 10,
+  "line": 11,
   "matchedColumns": [
     2
   ]
@@ -163,12 +139,12 @@ formatter.step({
 formatter.step({
   "name": "I click on \"loginButton\"",
   "keyword": "And ",
-  "line": 11
+  "line": 12
 });
 formatter.step({
   "name": "login should be \"failure\"",
   "keyword": "Then ",
-  "line": 12,
+  "line": 13,
   "matchedColumns": [
     3
   ]
@@ -187,55 +163,20 @@ formatter.match({
   "location": "LoginTest.I_go_to_Confluence(String,String)"
 });
 formatter.result({
-  "duration": 10487291304,
+  "duration": 22974070121,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginUsername",
-      "offset": 9
-    },
-    {
-      "val": "bhuhsahn",
-      "offset": 28
-    }
-  ],
-  "location": "LoginTest.I_enter(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 130109181,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginPassword",
-      "offset": 9
-    },
-    {
-      "val": "nbczccc",
-      "offset": 28
-    }
-  ],
-  "location": "LoginTest.I_enter(String,String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 101963621,
-  "status": "passed"
+  "status": "undefined"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "loginButton",
-      "offset": 12
-    }
-  ],
-  "location": "LoginTest.I_click(String)"
-});
+formatter.match({});
 formatter.result({
-  "duration": 2646996695,
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.match({
   "arguments": [
@@ -247,7 +188,6 @@ formatter.match({
   "location": "LoginTest.Login_should_be(String)"
 });
 formatter.result({
-  "duration": 20050463976,
-  "status": "passed"
+  "status": "skipped"
 });
 });

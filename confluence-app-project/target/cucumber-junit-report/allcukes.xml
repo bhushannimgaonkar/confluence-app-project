@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" tests="1">
-<testcase classname="Check createPage functionality" name="CreatePage scenario" time="51.379682">
-<failure message="java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.&#13;&#10;&#9;at org.openqa.selenium.By.xpath(By.java:113)&#13;&#10;&#9;at com.confluence.app.framework.util.WebConnector.click(WebConnector.java:99)&#13;&#10;&#9;at com.confluence.app.framework.testcases.CommonUtils.I_click(CommonUtils.java:14)&#13;&#10;&#9;at ✽.And I click on &quot;CreatePageLink&quot;(test\resources\com\confluence\app\framework\testcases\createPageFeature.feature:12)&#13;&#10;"><![CDATA[Given I am logged in "Mozilla".......................................................passed
-And I click on "CreatePageLink".......................................................failed
-Then "createPagelink" element should be present...............................................undefined
-And I Enter "PageHeading" as "This is Product Test".............................................undefined
-And I click on "saveButton".........................................................skipped
-Then "PageTitle" should be "This is Product Test"..............................................skipped
-
-StackTrace:
-java.lang.IllegalArgumentException: Cannot find elements when the XPath expression is null.
-	at org.openqa.selenium.By.xpath(By.java:113)
-	at com.confluence.app.framework.util.WebConnector.click(WebConnector.java:99)
-	at com.confluence.app.framework.testcases.CommonUtils.I_click(CommonUtils.java:14)
-	at ✽.And I click on "CreatePageLink"(test\resources\com\confluence\app\framework\testcases\createPageFeature.feature:12)
-]]></failure>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="2">
+<testcase classname="Check createPage functionality" name="CreatePage scenario" time="59.239541">
+<system-out><![CDATA[Given I am logged in "Mozilla".......................................................passed
+Then "createPageLink" element should be present...............................................passed
+And I click on "createPageLink".......................................................passed
+And I enter "PageHeading" as "This is confluence product test".......................................passed
+And I click on "saveButton".........................................................passed
+Then "PageTitle" should be "This is confluence product test"........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Page Restrictions test feature" name="Put page restrictions scenario" time="8.631237">
+<system-out><![CDATA[And I click on "***Menu"..........................................................passed
+And I click on "RestrictionsMenuOption"...................................................passed
+Then "RestrictionsMenuArrowButton" element should be present........................................passed
+And I select "ViewingAndEditingRestrictionsMenuOption"...........................................passed
+And I click on "applyButton"........................................................passed
+Then "FulllockedRestrictionsImage" element should be present........................................passed
+]]></system-out>
 </testcase>
 </testsuite>
